@@ -27,7 +27,7 @@ else if (xp <= 10000) {
 }
 
 else {
-    level = "Godlike";
+    level = "Demigod";
 }
 
 console.log(`The hero named ${heroName} is at level ${level}`);
