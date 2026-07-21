@@ -1,33 +1,33 @@
 let heroName = "Aragorn";
 let xp = 15000;
-let nivel = "";
+let level = "";
 
 if (xp < 1000) {
-    nivel = "Ferro";
+    level = "Iron";
 
 }
 
 else if (xp <= 2000) {
-    nivel = "Bronze";
+    level = "Bronze";
 }
 
 else if (xp <= 5000) {
-    nivel = "Prata";
+    level = "Silver";
 }
 else if (xp <= 8000) {
-    nivel = "Ouro";
+    level = "Gold";
 }
 
 else if (xp <= 9000) {
-    nivel = "Platina";
+    level = "Platinum";
 }
 
 else if (xp <= 10000) {
-    nivel = "Ascendente";
+    level = "Ascending";
 }
 
 else {
-    nivel = "Radiante";
+    level = "Godlike";
 }
 
-console.log(`O Herói de nome ${heroName} está no nível ${nivel}`);
+console.log(`The hero named ${heroName} is at level ${level}`);
