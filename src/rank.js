@@ -48,7 +48,7 @@ function calculateRank(victories, defeats) {
     return `Hero has a score of **${score}** and is at the level of **${level}**`;
 }       
 
-// My example usage:
+// My test cases
 const victories = 125;
 const defeats = 10;
 const result = calculateRank(victories, defeats);
