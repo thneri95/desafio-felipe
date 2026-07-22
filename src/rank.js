@@ -54,3 +54,5 @@ const defeats = 10;
 const result = calculateRank(victories, defeats);
 console.log(result);
 
+
+// I completed the challenge by creating a function called `calculateRank` that takes in two parameters: `victories` and `defeats`. The function calculates the score by subtracting defeats from victories and then determines the level based on the number of victories. Finally, it returns a formatted string that includes the score and level.
